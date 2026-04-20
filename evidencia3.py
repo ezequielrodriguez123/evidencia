@@ -21,3 +21,6 @@ class Persona:
         return self.__peso / (self.__altura ** 2)
     def es_mayor_de_edad(self):
         return self.__edad >= 18
+        def info(self):
+            return f"Nombre: {self.__nombre}, Edad: {self.__edad}, Correo: {self.__correo}"
+        
