@@ -23,4 +23,8 @@ class Persona:
         return self.__edad >= 18
         def info(self):
             return f"Nombre: {self.__nombre}, Edad: {self.__edad}, Correo: {self.__correo}"
-        
+        persona1 = Persona("Ezequiel", 18, 1.75, 70, "correo@gmail.com")
+
+print(persona1.info())
+print("IMC:", persona1.calcular_imc())
+print("Mayor de edad:", persona1.es_mayor_de_edad())
