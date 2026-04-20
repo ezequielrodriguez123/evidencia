@@ -17,3 +17,5 @@ class Persona:
 
     def set_edad(self, edad):
         self.__edad = edad
+    def calcular_imc(self):
+        return self.__peso / (self.__altura ** 2)
