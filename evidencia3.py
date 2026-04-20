@@ -7,3 +7,8 @@ class Persona:
         self.__altura = altura
         self.__peso = peso
         self.__correo = correo
+    def get_nombre(self):
+        return self.__nombre
+
+    def get_edad(self):
+        return self.__edad
